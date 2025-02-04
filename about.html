@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Приключенческий Блог – О нас</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Плавающая кнопка "Наверх" -->
+    <button id="scrollTop" title="Наверх">▲</button>
+
+    <header id="header">
+        <div class="header-left">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/image/logo-white.png" alt="Логотип блога (белый)" class="logo-white">
+                    <img src="assets/image/logo-black.png" alt="Логотип блога (черный)" class="logo-black">
+                </a>
+            </div>
+            <div class="blog-title">
+                <a href="index.html" class="title-link">Следуй за горизонтом</a>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <!-- 
+                     (6) ТЕКУЩАЯ СТРАНИЦА "О нас"
+                     Добавляем класс active-link
+                -->
+                <li><a href="about.html" class="active-link">О нас</a></li>
+                <li><a href="places.html">Места</a></li>
+                <li><a href="experience.html">Опыт</a></li>
+                <li><a href="blog.html">Блог</a></li>
+            </ul>
+        </nav>
+        <div class="header-right">
+            <!-- (5) Строка поиска с адаптацией -->
+            <input type="text" class="search-input" placeholder="Поиск...">
+        </div>
+    </header>
+
+    <main>
+        <!-- 
+             (1) ПАРАЛЛАКС-ЭФФЕКТ В ГЕРОЕ
+             Переводим картинку на background-image, 
+             фиксированный фон + JavaScript для движения текста.
+        -->
+        <section class="hero" style="background-image: url('assets/image/hero2.jpg');">
+            <div class="hero-text-container" id="heroParallaxText">
+                <h1>О НАС</h1><br>
+                <div class="hero-subtitle">Кто мы и чем мы живём</div>
+            </div>
+        </section>
+
+        <!-- Первая секция с фото и текстом -->
+        <section class="about">
+            <div class="text-content">
+                <h2>Мы — команда искателей приключений!</h2>
+                <p>Наш блог объединил профессиональных гидов, фотографов и просто страстных любителей путешествовать. Мы верим, что каждая поездка может обогатить и вдохновить.</p>
+            </div>
+            <div class="image-container">
+                <img src="assets/image/image3.jpg" alt="Наша команда">
+            </div>
+        </section>
+
+        <!-- Вторая секция -->
+        <section class="about">
+            <div class="text-content">
+                <h2>Наша миссия</h2>
+                <p>Мы хотим показать, что мир доступен всем, кто готов сделать шаг навстречу неизведанному. В наших статьях и отчётах мы стараемся делиться не только красочными картинками, но и полезными советами:</p>
+                <ul>
+                    <li>Как составить бюджет путешествия;</li>
+                    <li>На что обратить внимание в незнакомой культуре;</li>
+                    <li>Как подготовиться к активным видам отдыха.</li>
+                </ul>
+            </div>
+            <div class="image-container">
+                <img src="assets/image/image4.jpg" alt="Снаряжение и подготовка">
+            </div>
+        </section>
+
+        <!-- Третья секция -->
+        <section class="about">
+            <div class="text-content">
+                <h2>Присоединяйтесь!</h2>
+                <p>Мы всегда рады новым единомышленникам, готовым исследовать мир вместе с нами. Присылайте свои рассказы, фотографии, советы и впечатления — мы будем рады опубликовать их в нашем блоге.</p>
+            </div>
+            <div class="image-container">
+                <img src="assets/image/image5.jpg" alt="Друзья в путешествии">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Следуй за горизонтом. Все права защищены.</p>
+            <div class="footer-social">
+                <a href="#" aria-label="Facebook"><img src="assets/image/facebook.png" alt="Facebook" class="social-icon"></a>
+                <a href="#" aria-label="Instagram"><img src="assets/image/instagram.png" alt="Instagram" class="social-icon"></a>
+                <a href="#" aria-label="Twitter"><img src="assets/image/twitter.png" alt="Twitter" class="social-icon"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

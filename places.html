@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Приключенческий Блог – Места</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Плавающая кнопка "Наверх" -->
+    <button id="scrollTop" title="Наверх">▲</button>
+
+    <header id="header">
+        <div class="header-left">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/image/logo-white.png" alt="Логотип блога (белый)" class="logo-white">
+                    <img src="assets/image/logo-black.png" alt="Логотип блога (черный)" class="logo-black">
+                </a>
+            </div>
+            <div class="blog-title">
+                <a href="index.html" class="title-link">Следуй за горизонтом</a>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="about.html">О нас</a></li>
+                <!-- 
+                     (6) АКТИВНАЯ ССЫЛКА НА "Места"
+                -->
+                <li><a href="places.html" class="active-link">Места</a></li>
+                <li><a href="experience.html">Опыт</a></li>
+                <li><a href="blog.html">Блог</a></li>
+            </ul>
+        </nav>
+        <div class="header-right">
+            <!-- (5) Строка поиска с адаптацией -->
+            <input type="text" class="search-input" placeholder="Поиск...">
+        </div>
+    </header>
+
+    <main>
+        <!-- 
+             (1) ПАРАЛЛАКС-ЭФФЕКТ В ГЕРОЙ-БЛОКЕ 
+        -->
+        <section class="hero" style="background-image: url('assets/image/hero3.jpg');">
+            <div class="hero-text-container" id="heroParallaxText">
+                <h1>МЕСТА</h1><br>
+                <div class="hero-subtitle">Невероятные локации для путешествий</div>
+            </div>
+        </section>
+
+        <!-- Секция 1 -->
+        <section class="about">
+            <div class="text-content">
+                <h2>Горные маршруты</h2>
+                <p>От Альп до Гималаев — горы всегда дарят незабываемые впечатления. Здесь можно почувствовать себя настоящим первооткрывателем, дышать чистейшим воздухом и любоваться видами, которые завораживают дух.</p>
+            </div>
+            <div class="image-container">
+                <img src="assets/image/image6.jpg" alt="Горный хребет">
+            </div>
+        </section>
+
+        <!-- Секция 2 -->
+        <section class="about">
+            <div class="text-content">
+                <h2>Тропические оазисы</h2>
+                <p>Тёплое солнце, бирюзовая вода и белоснежный песок. Райский уголок, где можно забыть о проблемах и полностью расслабиться. Снорклинг, дайвинг или просто загар — каждый найдёт здесь своё.</p>
+            </div>
+            <div class="image-container">
+                <img src="assets/image/image7.jpg" alt="Тропический пляж">
+            </div>
+        </section>
+
+        <!-- Секция 3 -->
+        <section class="about">
+            <div class="text-content">
+                <h2>Северное сияние</h2>
+                <p>Арктические путешествия дарят магические пейзажи: льды, сияющее небо и бесконечные просторы. Именно здесь ощущаешь настоящую мощь природы и понимаешь, насколько велики чудеса нашей планеты.</p>
+            </div>
+            <div class="image-container">
+                <img src="assets/image/image8.jpg" alt="Северное сияние">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Следуй за горизонтом. Все права защищены.</p>
+            <div class="footer-social">
+                <a href="#" aria-label="Facebook"><img src="assets/image/facebook.png" alt="Facebook" class="social-icon"></a>
+                <a href="#" aria-label="Instagram"><img src="assets/image/instagram.png" alt="Instagram" class="social-icon"></a>
+                <a href="#" aria-label="Twitter"><img src="assets/image/twitter.png" alt="Twitter" class="social-icon"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
